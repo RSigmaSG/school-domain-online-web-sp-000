@@ -15,14 +15,24 @@ class School
     if (roster[grade])
       roster[grade] << name
     else
-      roster[grade] = name
+      roster[grade] = [name]
     end
     
   end
   
-  def grade()
+  def grade(grade)
     
     roster[grade]
+    
+  end
+  
+  def sort 
+    
+    roster.each do |grade|
+      
+      
+      
+    end
     
   end
   
