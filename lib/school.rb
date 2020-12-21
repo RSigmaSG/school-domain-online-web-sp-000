@@ -30,7 +30,7 @@ class School
     
     roster.each do |grade, name|
       
-      
+      name = name.sort
       
     end
     
