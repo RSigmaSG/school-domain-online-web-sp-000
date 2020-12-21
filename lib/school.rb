@@ -21,5 +21,9 @@ class School
   end
   
   def grade
+    
+    roster[grade]
+    
+  end
   
 end
